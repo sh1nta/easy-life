@@ -17,9 +17,11 @@ echo '                                                                  @by Net 
 sleep 3 && clear
 ifconfig wlan0 | grep inet
 curl ipinfo.io/ip
-echo escriba la ip LAN o WAN
+echo
+echo Escriba la ip LAN o WAN:
 read ip
-echo escriba el puerto
+echo
+echo Escriba el puerto:
 read port
 clear
 echo se esta creando un payload con la ip $ip y el puerto $port aguarde por favor && sleep 3 && clear
