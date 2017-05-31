@@ -14,7 +14,7 @@ echo '         _  / __ _  _ \_  __ \  _ \_  ___/  __ `/  __/  __ \_  ___/       
 echo '         / /_/ / /  __/  / / /  __/  /   / /_/ // /_ / /_/ /  /                 '
 echo '         \____/  \___//_/ /_/\___//_/    \__,_/ \__/ \____//_/                  '
 echo '                                                                  @by Net       '
-
+sleep 3 && clear
 ifconfig wlan0 | grep inet
 curl ipinfo.io/ip
 echo escriba la ip LAN o WAN
