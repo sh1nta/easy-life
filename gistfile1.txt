@@ -1,7 +1,20 @@
 #!/bin/bash
-#script para hacer mas simple todavia el pay :3 by Gonzalo Nuñez
+#script para hacer mas simple todavia el payload en caso de urgencia, by Gonzalo Nuñez
 #30/may/2017
 clear
+echo ' __________             _____________               ______            _________ '
+echo ' ___  ____/_____ _________  /___  __ \_____ _____  ____  /___________ ______  / '
+echo ' __  /_   _  __ `/_  ___/  __/_  /_/ /  __ `/_  / / /_  /_  __ \  __ `/  __  /  '
+echo ' _  __/   / /_/ /_(__  )/ /_ _  ____// /_/ /_  /_/ /_  / / /_/ / /_/ // /_/ /   '
+echo ' /_/      \__,_/ /____/ \__/ /_/     \__,_/ _\__, / /_/  \____/\__,_/ \__,_/    '
+echo '                                          /____/                                '
+echo '         _________                              _____                           '
+echo '         __  ____/_____________________________ __  /______________             '
+echo '         _  / __ _  _ \_  __ \  _ \_  ___/  __ `/  __/  __ \_  ___/             '
+echo '         / /_/ / /  __/  / / /  __/  /   / /_/ // /_ / /_/ /  /                 '
+echo '         \____/  \___//_/ /_/\___//_/    \__,_/ \__/ \____//_/                  '
+echo '                                                                  @by Net       '
+
 ifconfig wlan0 | grep inet
 curl ipinfo.io/ip
 echo escriba la ip LAN o WAN
